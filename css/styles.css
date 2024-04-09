@@ -147,42 +147,37 @@ iframe:hover {
   #map {
     height: 700px;
   }
-}
-.slider-container {
+
+#slider {
   position: relative;
-  width: 100%;
-  max-width: 600px; /* Adjust as needed */
-  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
-.slider-image {
-  display: none;
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+img {
   width: 100%;
   height: auto;
 }
 
-.slider-image.active {
-  display: block;
-}
-
-.prev,
-.next {
+button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: #fff;
   border: none;
   cursor: pointer;
-  padding: 10px;
-  z-index: 100;
+  font-size: 24px;
 }
 
 .prev {
-  left: 0;
+  left: 10px;
 }
 
 .next {
-  right: 0;
+  right: 10px;
 }
-
