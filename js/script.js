@@ -6,7 +6,7 @@ function initMap() {
     var marker = new google.maps.Marker({
       position: {lat: 24.8999964, lng: 67.083333}, 
       map: map,
-      icon: "images/karachi.png",
+      icon: "images/lion.jpg",
       title: 'Karachi, Pakistan',
       animation: google.maps.Animation.DROP,
       draggable: true,
