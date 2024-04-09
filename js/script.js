@@ -13,7 +13,7 @@ function initMap() {
     });
     
     var infoWindow = new google.maps.InfoWindow({
-      content: '<div style="width: 200px; height: 150px;">' +
+      content: '<div style="width: 20px; height: 30px;">' +
         '<h3>Karachi, Pakistan</h3>' +
         '<p>Karachi, Pakistan: A city known for its night-life.</p>' +
         '<p>It is a great spot for tourists to check it out.</p>' +
