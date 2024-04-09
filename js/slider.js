@@ -1,3 +1,4 @@
+let slideIndex = 0;
 
 function showSlides() {
   const slides = document.querySelectorAll('#slider .slides img');
@@ -25,6 +26,9 @@ function prevSlide() {
   slideIndex--;
   showSlides();
 }
+
+// Automatically advance slides
+setInterval(nextSlide, 3000);
 
 // Initial display
 showSlides();
